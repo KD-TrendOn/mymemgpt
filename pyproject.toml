@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mymemgpt"
+version = "0.1.0"
+description = "memgpt implementation"
+authors = ["KD-TrendOn <damirkrasilnicov2006@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langgraph = "^0.1.5"
+langchain = "^0.2.6"
+langchain-openai = "^0.1.14"
+langchain-community = "^0.2.6"
+jsonpatch = "^1.33"
+dydantic = "^0.0.6"
+pydantic-settings = "^2.3.4"
+trustcall = "^0.0.5"
+tavily-python = "^0.3.3"
+tiktoken = "^0.7.0"
+langchain-postgres = "^0.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
