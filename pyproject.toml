@@ -19,6 +19,7 @@ trustcall = "^0.0.5"
 tavily-python = "^0.3.3"
 tiktoken = "^0.7.0"
 langchain-postgres = "^0.0.9"
+langsmith = "^0.1.83"
 
 
 [build-system]
